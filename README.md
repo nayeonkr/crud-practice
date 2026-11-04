@@ -12,3 +12,8 @@ git init
 uv add "fastapi[standard]"
 ```
 
+## run server
+
+```
+uv run fastapi dev
+```
