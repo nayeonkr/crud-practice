@@ -9,4 +9,6 @@ code .
 
 git init
 
+uv add "fastapi[standard]"
 ```
+
