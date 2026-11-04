@@ -19,5 +19,5 @@ def ping(request: Request):
 
 # 받는 정보를 사용하는 페이지
 @app.get('/pong')
-def pong():
-    pass
+def pong(count: int):
+    return {'result': count ** 3}
